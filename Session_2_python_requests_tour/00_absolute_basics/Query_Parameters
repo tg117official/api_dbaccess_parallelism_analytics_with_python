@@ -1,0 +1,50 @@
+Query Parameters in REST APIs
+
+What Are Query Parameters?
+Query parameters are key-value pairs sent in the URL to pass data to the server.
+They are appended to the URL after a ? and separated by &.
+Commonly used with GET requests to filter, sort, or search data.
+
+Syntax
+http://example.com/api/resource?key1=value1&key2=value2
+? starts the query string
+& separates multiple key-value pairs
+
+Characteristics
+Sent in the URL, not in the body.
+Visible in the browser (can be bookmarked).
+Ideal for non-sensitive, read-only data.
+Supports multiple filters or inputs in a single request.
+
+Example Use Cases
+URL:
+https://httpbin.org/get?name=John&role=Student&batch=May2025
+
+URL
+Purpose
+https://example.com/news?topic=tech&limit=5 --> Get top 5 news in tech
+
+https://shop.com/search?q=laptop&brand=hp --> Search for HP laptops
+https://library.com/books?author=tolkien&sort=year --> Books by Tolkien, sorted by year
+
+
+Best Practices
+- Use query params for filters, searches, sorts
+- Don’t send passwords or private info in URLs
+- Use & to send multiple values
+- Always use ? to begin the query string
+- Always validate and sanitize inputs on the server.
+
+
+
+Activity (Fun Group Task)
+URL:
+https://weather.com/data
+“How would you write a query string to get:
+weather in Delhi	| city
+for tomorrow		| day
+in Celsius units	| unit
+
+
+Answer:
+https://weather.com/data?city=Delhi&day=tomorrow&unit=celsius

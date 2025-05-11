@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cccf12e8-560a-4923-8e5f-d43c3f96c4a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Python_APIs_and_DB_access.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_1/01_introduction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_1/02_data_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_1/03_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_1/04_tuple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_1/05_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_1/06_dictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_1/07_mapping_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_1/08_program_structure_for_python_script" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_1/09_program_structure_for_python_application" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/00_absolute_basics/Query_Parameters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/01_the_basics/00_request_basics_get_and_post.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/01_the_basics/01_get_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/01_the_basics/02_post_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/01_the_basics/03_put_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/01_the_basics/04_patch_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/01_the_basics/05_delete_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/01_the_basics/playground.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/02_get_post_basic_app/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/02_get_post_basic_app/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/04_headers_task/00_headers_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/04_headers_task/01_request_vs_response_headers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/05_cookies_tasks/01_login-app/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/05_cookies_tasks/01_login-app/client_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/05_cookies_tasks/01_login-app/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/05_cookies_tasks/02_secure_http_expire_path/demo_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/05_cookies_tasks/02_secure_http_expire_path/demo_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/05_cookies_tasks/03_login_logout_delete_cookies/01_demo_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/05_cookies_tasks/03_login_logout_delete_cookies/02_demo_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/05_cookies_tasks/04_work_with_selected_cookies/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/05_cookies_tasks/04_work_with_selected_cookies/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/05_cookies_tasks/05_persistent_cookies/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/05_cookies_tasks/05_persistent_cookies/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/05_cookies_tasks/05_persistent_cookies/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/01_simple_login/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/01_simple_login/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/01_simple_login/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/01_simple_login/routes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/01_simple_login/routes/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/02_form_based_POST_login/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/02_form_based_POST_login/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/02_form_based_POST_login/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/02_form_based_POST_login/routes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/02_form_based_POST_login/routes/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/02_form_based_POST_login/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/03_session_expiry_app/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/03_session_expiry_app/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/03_session_expiry_app/routes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/03_session_expiry_app/routes/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/03_session_expiry_app/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/04_shopping_cart_demo/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/04_shopping_cart_demo/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/04_shopping_cart_demo/routes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/04_shopping_cart_demo/routes/cart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/05_session_role_app/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/05_session_role_app/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/05_session_role_app/routes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/05_session_role_app/routes/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/06_session_management/05_session_role_app/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/client/register_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/playground.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/order_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/project_1_profile_management/client/delete-profiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/project_1_profile_management/client/get-profiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/project_1_profile_management/client/post-profiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/project_1_profile_management/client/put-profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/project_1_profile_management/data/profiles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/project_1_profile_management/generate_images.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/project_1_profile_management/mock_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/project_1_profile_management/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/project_1_profile_management/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/01_connect_postgresql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/02_create_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/03_insert_into_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/04_fetch_from_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/06_update_record.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/07_delete_a_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/08_cursor_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/09_named_cursor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/10_crud_ops.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2vAkJvYATQCj0xg6VS3BWt6FKlZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.00_headers_basic.executor": "Run",
+    "Python.01_connect_postgresql.executor": "Run",
+    "Python.01_request_vs_response_headers.executor": "Run",
+    "Python.02_connect_postgres_prompt_password.executor": "Run",
+    "Python.03_put_method.executor": "Run",
+    "Python.app (1).executor": "Run",
+    "Python.app (2).executor": "Run",
+    "Python.app (3).executor": "Run",
+    "Python.app (4).executor": "Run",
+    "Python.app (5).executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.app_server.executor": "Run",
+    "Python.client.executor": "Run",
+    "Python.delete-profiles.executor": "Run",
+    "Python.demo.executor": "Run",
+    "Python.generate_images (1).executor": "Run",
+    "Python.get-profiles.executor": "Run",
+    "Python.login_session.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.playground.executor": "Run",
+    "Python.post-profiles.executor": "Run",
+    "Python.put-profile.executor": "Run",
+    "Python.server.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Sandeep/PycharmProjects/Python_APIs_and_DB_access/Session_2_GET_and_POST/Project_2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_2_GET_and_POST\Project_2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_3_python_postgresql_integration\01_basic" />
+      <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_2_python_requests_tour\project_2_ecom_or_profile_app" />
+      <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_2_python_requests_tour\project_2_ecom_or_profile_app\static" />
+      <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_2_python_requests_tour\project_2_ecom_or_profile_app\routes" />
+      <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_2_python_requests_tour" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app_server">
+    <configuration name="01_connect_postgresql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_APIs_and_DB_access" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_3_python_postgresql_integration" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_3_python_postgresql_integration\01_basic\01_connect_postgresql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02_connect_postgres_prompt_password" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_APIs_and_DB_access" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_3_python_postgresql_integration" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_3_python_postgresql_integration/02_connect_postgres_prompt_password.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_APIs_and_DB_access" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/app_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="login_session" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_APIs_and_DB_access" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/client" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/client/login_session.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="playground" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_APIs_and_DB_access" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/playground.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app_server" />
+        <item itemvalue="Python.login_session" />
+        <item itemvalue="Python.playground" />
+        <item itemvalue="Python.02_connect_postgres_prompt_password" />
+        <item itemvalue="Python.01_connect_postgresql" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cccf12e8-560a-4923-8e5f-d43c3f96c4a3" name="Changes" comment="" />
+      <created>1743595197459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743595197459</updated>
+    </task>
+    <servers />
+  </component>
+</project>

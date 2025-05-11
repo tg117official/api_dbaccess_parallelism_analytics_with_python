@@ -1,0 +1,51 @@
+What is Program Structure in Python?
+The program structure in Python refers to how a Python program is organized—the building blocks and
+their order that make the code readable, maintainable, and functional.Think of it like a blueprint or
+a skeleton of your Python script.
+
+Key Components of Python Program Structure
+Component
+Description
+1. Shebang Line (Optional)
+        Used in Linux/Unix to specify interpreter. Example: #!/usr/bin/python3
+2. Module Imports
+        Importing standard libraries or custom modules.
+3. Global Variables / Constants
+        Defined at the top for easy configuration.
+4. Functions / Classes
+        Reusable logic; helps break your code into smaller blocks.
+5. main() Function
+        Entry point of the program.
+6. if __name__ == "__main__" block
+        Ensures that main() runs only when script is executed directly.
+
+
+Typical Python Program Structure
+# 1. Module imports
+import math
+
+# 2. Global variables/constants
+PI = 3.14159
+
+# 3. Function definitions
+def area_of_circle(radius):
+    return PI * radius * radius
+
+# 4. Main logic wrapped in a function
+def main():
+    r = float(input("Enter radius: "))
+    print("Area:", area_of_circle(r))
+
+# 5. Entry point check
+if __name__ == "__main__":
+    main()
+
+
+Why use this structure?
+    - Clean and modular
+    - Makes code reusable (functions/classes)
+    - Ensures correct behavior when script is imported vs executed
+    - Professional and production-ready layout
+
+
+

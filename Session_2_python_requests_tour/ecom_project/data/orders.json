@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "user": "sandeep",
+    "items": [
+      {
+        "id": 1,
+        "image_url": "https://via.placeholder.com/150?text=Laptop",
+        "name": "Laptop",
+        "price": 75000,
+        "stock": 10
+      }
+    ],
+    "timestamp": "2025-05-12T00:22:52.614879"
+  },
+  {
+    "id": 2,
+    "user": "sandeep",
+    "items": [
+      {
+        "id": 1,
+        "image_url": "https://via.placeholder.com/150?text=Laptop",
+        "name": "Laptop",
+        "price": 75000,
+        "stock": 10
+      }
+    ],
+    "timestamp": "2025-05-12T00:24:40.765393"
+  },
+  {
+    "id": 3,
+    "user": "sandeep",
+    "items": [
+      {
+        "id": 2,
+        "image_url": "https://via.placeholder.com/150?text=Smartphone",
+        "name": "Smartphone",
+        "price": 35000,
+        "stock": 25
+      }
+    ],
+    "timestamp": "2025-05-12T00:27:07.554024"
+  }
+]

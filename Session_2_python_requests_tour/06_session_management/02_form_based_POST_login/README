@@ -1,0 +1,28 @@
+This will simulate a real login flow where the user:
+- Enters credentials into a form
+- The server checks the credentials
+- A session is created
+- The user is redirected to a dashboard
+- Logout clears the session
+
+
+
+| Route      | Purpose                                               |
+| -----------| ------------------------------------------------------|
+| /login     | Displays a form (GET), handles form submission (POST) |
+| /dashboard | Checks session and shows user info if logged in       |
+| /logout    | Clears session data                                   |
+| /          | Redirects to `/login`                                 |
+
+
+
+| Concept                    | Purpose                       |
+| -------------------------- | ----------------------------- |
+| `request.form`             | Access form input             |
+| `session['username']`      | Store session data            |
+| `session.get()`            | Retrieve session value safely |
+| `session.clear()`          | Clear session (logout)        |
+| `redirect()` + `url_for()` | Navigation flow               |
+| Inline HTML rendering      | Quick setup for demo          |
+
+

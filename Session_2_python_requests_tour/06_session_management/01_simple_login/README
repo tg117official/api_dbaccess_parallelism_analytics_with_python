@@ -1,0 +1,36 @@
+Exercise 1: Flask Session-Based Login – Beginner Friendly
+
+Goal:
+- User logs in via URL (GET param)
+- Server stores username in session
+- Dashboard shows personalized message
+- Logout clears the session
+
+Steps :
+
+| Step                           | What It Demonstrates                     |
+| ------------------------------ | ---------------------------------------- |
+| Visiting `/dashboard` directly | Server is stateless                      |
+| Logging in                     | Session is created                       |
+| Dashboard access               | Session persists and identifies the user |
+| Cookie inspection              | Session ID is stored in client cookie    |
+| Logout                         | Session is cleared                       |
+
+
+- Manually change usernames, logout, and test what happens without logging in.
+- This reinforces the stateless nature of HTTP and the importance of sessions.
+
+
+
+session['username']
+    Store logged-in user
+session.get()
+    Check if user is logged in
+session.clear()
+    Log the user out
+secret_key
+    Required to enable sessions
+Simulated login
+    Easy way to understand session tracking
+
+

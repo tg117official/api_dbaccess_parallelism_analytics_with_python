@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "price": 75000,
+    "stock": 10,
+    "image_url": "https://via.placeholder.com/150?text=Laptop"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "price": 35000,
+    "stock": 25,
+    "image_url": "https://via.placeholder.com/150?text=Smartphone"
+  },
+  {
+    "id": 3,
+    "name": "Headphones",
+    "price": 2500,
+    "stock": 50,
+    "image_url": "https://via.placeholder.com/150?text=Headphones"
+  }
+]

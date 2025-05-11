@@ -1,0 +1,8 @@
+Goal: "Remember Me" Login System with Persistent Cookie
+
+Features:
+- Login form accepts username, password, and remember_me checkbox
+- If remember_me is checked → cookie is set with expiration
+- If not → cookie is a session cookie (removed after browser closes)
+- Protected route requires cookie
+- Logout route deletes the cookie

@@ -1,0 +1,32 @@
+my_python_app/
+├── app/                        # Core application logic
+│   ├── __init__.py
+│   ├── main.py                 # Main entry point (can include CLI or startup logic)
+│   ├── config.py               # Application configuration (env vars, constants)
+│   ├── utils/                  # Utility/helper functions
+│   │   ├── __init__.py
+│   │   └── file_utils.py
+│   ├── services/               # Core business logic / processing logic
+│   │   ├── __init__.py
+│   │   └── processor.py
+│   └── models/                 # Data models / schemas / classes
+│       ├── __init__.py
+│       └── user_model.py
+│
+├── tests/                      # Unit and integration tests
+│   ├── __init__.py
+│   ├── test_main.py
+│   └── test_processor.py
+│
+├── scripts/                    # CLI scripts or one-time run jobs
+│   └── data_loader.py
+│
+├── logs/                       # Log files
+│   └── app.log
+│
+├── requirements.txt            # List of dependencies
+├── setup.py                    # For packaging the project (optional)
+├── README.md                   # Project overview and instructions
+├── .env                        # Environment-specific variables (never commit to Git)
+├── .gitignore                  # Files/folders to ignore in version control
+└── run.py                      # Runner script to start the app
