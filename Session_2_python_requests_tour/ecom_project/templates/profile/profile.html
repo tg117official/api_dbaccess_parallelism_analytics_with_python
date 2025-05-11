@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Profile</title>
+</head>
+<body>
+    {% if username %}
+        <h2>Welcome, {{ username }}!</h2>
+        <p>🕒 You logged in at: <strong>{{ login_time }}</strong></p>
+        <p>🔐 Role: <strong>{{ role }}</strong></p>
+
+        <ul>
+            <li><a href="/products">Go to Products</a></li>
+            <li><a href="/orders">View Order History</a></li>
+            {% if role == 'admin' %}
+                <li><a href="/admin">Admin Panel</a></li>
+            {% elif role == 'seller' %}
+                <li><a href="/seller">Seller Dashboard</a></li>
+                <li><a href="/manage/products">Manage My Products</a></li>
+            {% endif %}
+            <li><a href="/profile/edit">Edit Profile</a></li>
+            <li><a href="/profile/delete">Delete My Account</a></li>
+            <li><a href="/logout">Logout</a></li>
+        </ul>
+    {% else %}
+        <h2>You are not logged in.</h2>
+        <p>Please <a href='/login'>log in</a> to view your profile.</p>
+        <p><a href='/products'>Continue as Guest</a></p>
+    {% endif %}
+</body>
+</html>

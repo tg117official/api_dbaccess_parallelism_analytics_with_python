@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit User Role</title>
+</head>
+<body>
+    <h2>✏️ Edit Role for {{ user.username }}</h2>
+    <a href="/admin/users">← Back to User List</a>
+    <hr>
+
+    <form method="POST">
+        <label>Email:</label><br>
+        <input type="email" value="{{ user.email }}" readonly><br><br>
+
+        <label>Current Role:</label><br>
+        <strong>{{ user.role }}</strong><br><br>
+
+        <label>Change Role:</label><br>
+        <select name="role" required>
+            <option value="customer" {% if user.role == 'customer' %}selected{% endif %}>Customer</option>
+            <option value="seller" {% if user.role == 'seller' %}selected{% endif %}>Seller</option>
+            <option value="admin" {% if user.role == 'admin' %}selected{% endif %}>Admin</option>
+        </select><br><br>
+
+        <button type="submit">Update Role</button>
+    </form>
+</body>
+</html>

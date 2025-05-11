@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Product Catalog</title>
+</head>
+<body>
+    <h2>📦 My Products</h2>
+    <a href="/seller">← Back to Seller Dashboard</a> |
+    <a href="/manage/products">Manage Products</a>
+    <hr>
+
+    {% if products %}
+        {% for product in products %}
+            <div style="border:1px solid #ccc; padding:10px; margin:10px;">
+                <strong>{{ product.name }}</strong><br>
+                ₹{{ product.price }} | Stock: {{ product.stock }}<br>
+                <img src="{{ product.image_url }}" alt="{{ product.name }}" width="100"><br>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No products listed yet.</p>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Product</title>
+</head>
+<body>
+    <h2>✏️ Edit Product</h2>
+    <a href="/manage/products">← Back to Products</a>
+    <hr>
+
+    <form method="POST">
+        Name: <input type="text" name="name" value="{{ product.name }}" required><br><br>
+        Price: <input type="number" name="price" value="{{ product.price }}" required><br><br>
+        Stock: <input type="number" name="stock" value="{{ product.stock }}" required><br><br>
+        Image URL: <input type="text" name="image_url" value="{{ product.image_url }}"><br><br>
+        <button type="submit">Update Product</button>
+    </form>
+</body>
+</html>

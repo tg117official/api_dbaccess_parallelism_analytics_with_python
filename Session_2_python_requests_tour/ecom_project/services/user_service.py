@@ -35,4 +35,20 @@ def register_user(user_data):
     write_json(USER_FILE, users)
     return True, None
 
+def delete_user(username):
+    users = load_json(USER_FILE)
+    users = [u for u in users if u['username'] != username]
+    write_json(USER_FILE, users)
+
+def update_user_role(username, new_role):
+    users = load_json(USER_FILE)
+    for user in users:
+        if user['username'] == username:
+            user['role'] = new_role
+            break
+    write_json(USER_FILE, users)
+
+
+def get_all_users():
+    return load_json(USER_FILE)
 

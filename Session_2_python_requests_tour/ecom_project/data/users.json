@@ -1,17 +1,20 @@
 [
   {
-    "username": "sandeep",
-    "password": "secure123",
-    "email": "sandeep@example.com"
-  },
-  {
     "username": "john",
     "password": "johnpass",
-    "email": "john@example.com"
+    "email": "john@example.com",
+    "role": "customer"
   },
   {
-    "username": "demo",
-    "email": "demo@gmail.com",
-    "password": "demo"
+    "username": "seller01",
+    "password": "sellpass",
+    "email": "seller01@example.com",
+    "role": "seller"
+  },
+  {
+    "username": "sandeep",
+    "email": "sdp117@gmail.com",
+    "password": "secure123",
+    "role": "admin"
   }
 ]

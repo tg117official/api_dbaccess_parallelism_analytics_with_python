@@ -19,5 +19,13 @@
     "price": 2500,
     "stock": 50,
     "image_url": "https://via.placeholder.com/150?text=Headphones"
+  },
+  {
+    "name": "Washing Machine",
+    "price": 65000.0,
+    "stock": 50,
+    "image_url": "",
+    "seller": "seller01",
+    "id": 4
   }
 ]

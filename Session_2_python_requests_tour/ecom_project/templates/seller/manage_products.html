@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Manage Products</title>
+</head>
+<body>
+    <h2>🛠️ Seller - Manage Products</h2>
+    <a href="/seller">← Back to Dashboard</a> |
+    <a href="/manage/products/add">➕ Add Product</a>
+    <hr>
+
+    {% if products %}
+        {% for product in products %}
+            <div style="border:1px solid #ccc; padding:10px; margin-bottom:10px;">
+                <strong>{{ product.name }}</strong><br>
+                ₹{{ product.price }} | Stock: {{ product.stock }}<br>
+                <img src="{{ product.image_url }}" width="100" alt="{{ product.name }}"><br>
+
+                <a href="/manage/products/edit/{{ product.id }}">✏️ Edit</a>
+
+                <form action="/manage/products/delete/{{ product.id }}" method="POST" style="display:inline;">
+                    <button type="submit">🗑️ Delete</button>
+                </form>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No products found.</p>
+    {% endif %}
+</body>
+</html>
