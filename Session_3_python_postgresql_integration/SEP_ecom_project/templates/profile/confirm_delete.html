@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Confirm Delete Account</title>
+</head>
+<body>
+    <h2>⚠️ Delete Account</h2>
+    <p>Are you sure you want to delete your account <strong>{{ username }}</strong>?</p>
+    <p>This action is irreversible. Your orders will remain but your account and (if seller) your products will be removed.</p>
+
+    {% if role != 'admin' %}
+        <form method="POST">
+            <button type="submit">Yes, Delete My Account</button>
+            <a href="/profile">Cancel</a>
+        </form>
+    {% else %}
+        <p style="color: red;">Admins are not allowed to delete their own accounts.</p>
+        <a href="/profile">Back to Profile</a>
+    {% endif %}
+</body>
+</html>

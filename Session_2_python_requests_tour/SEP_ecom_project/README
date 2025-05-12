@@ -1,0 +1,133 @@
+
+🛒 MiniMart – Flask-Based eCommerce Web App
+A fully functional eCommerce demo application built with Flask that supports role-based access (Admin, Seller, Customer), product management, session handling, and JSON-based data storage.
+
+📁 Project Structure
+ecom_project/
+│
+├── app_server.py               # Main Flask application
+├── data/                       # JSON files (users, products, orders)
+│   ├── users.json
+│   ├── products.json
+│   └── orders.json
+│
+├── services/                   # Business logic layer
+│   ├── user_service.py
+│   ├── product_service.py
+│   ├── order_service.py
+│   ├── update_service.py
+│   └── access_control.py
+│
+├── templates/                  # HTML templates
+│   ├── auth/                   # login.html, register.html
+│   ├── profile/                # profile.html, edit_profile.html, confirm_delete.html
+│   ├── seller/                 # seller_dashboard.html, manage_products.html, etc.
+│   ├── admin/                  # admin_dashboard.html, users.html, edit_user.html
+│   └── cart.html, products.html, orders.html, home.html
+│
+├── static/                     # (Optional) CSS/JS/images
+└── README.md                   # This file
+
+
+👥 User Roles
+
+Customer
+    View products, add to cart, place orders, manage profile
+Seller
+    Add/edit/delete products, view catalog, manage profile
+Admin
+    Manage users (edit roles, delete), view orders/products, access control dashboards
+
+
+🚀 Features
+👤 User Registration & Login
+
+Role assigned as customer by default
+Admin-only user role editing
+
+
+🔐 Session & Cookie Management
+
+Auto-redirect to respective dashboards on login
+Cart stored in Flask session
+
+
+📦 Product Management (Seller)
+
+Add, edit, delete your own products
+View personal catalog
+
+
+🧺 Shopping & Cart
+
+
+Add/remove items to cart
+Checkout process creates an order
+
+
+🧾 Order Management
+
+Customers can view their order history
+
+
+⚙️ Admin Panel
+
+View all users
+Edit user roles
+Delete users (except themselves)
+
+
+
+🧪 Sample URLs
+Path
+Description
+/
+    Home (auto-redirect if logged in)
+/login
+    Login page
+/register
+    User registration
+/products
+    Browse all products
+/customer
+    Customer dashboard
+/seller
+    Seller dashboard
+/admin
+    Admin dashboard
+/admin/users
+    Admin user management panel
+
+
+🛠️ Tech Stack
+Flask (Python Web Framework)
+HTML (Jinja2 templating)
+JSON files for storage (users, products, orders)
+
+
+
+How to Run
+Install dependencies (Flask):
+
+ pip install flask
+
+
+Run the app:
+
+ python app_server.py
+
+
+Open your browser at:
+ http://localhost:5000
+
+
+
+Notes
+Admin cannot delete their own account
+Seller deletion also deletes their products
+All data is persisted in .json files under /data
+
+
+
+
+
