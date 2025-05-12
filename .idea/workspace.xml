@@ -4,28 +4,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cccf12e8-560a-4923-8e5f-d43c3f96c4a3" name="Changes" comment="added project 1">
-      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/services/access_control.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/services/update_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/admin/edit_user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/admin/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/admin_dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/customer_dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/profile/confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/profile/edit_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/profile/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/seller/add_product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/seller/catalog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/seller/edit_product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/seller/manage_products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/seller_dashboard.html" afterDir="false" />
+    <list default="true" id="cccf12e8-560a-4923-8e5f-d43c3f96c4a3" name="Changes" comment="ecom_user_management_product_management">
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/app_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/app_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/data/orders.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/data/orders.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/data/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/data/products.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/data/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/services/product_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/services/product_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/services/user_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/services/user_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/app_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/app_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/client/download_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/client/download_images.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/client/login_session.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/client/login_session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/client/place_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/client/place_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/client/post_headers_cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/client/post_headers_cookies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/client/register_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/client/register_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/client/view_products.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/client/view_products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/data/orders.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/data/orders.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/data/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/data/products.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/data/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/services/access_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/services/access_control.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/services/file_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/services/file_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/services/order_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/services/order_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/services/product_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/services/product_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/services/update_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/services/update_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/services/user_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/services/user_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/admin/edit_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/admin/edit_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/admin/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/admin/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/admin_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/admin_dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/customer_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/customer_dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/order_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/order_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/profile/confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/profile/confirm_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/profile/edit_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/profile/edit_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/profile/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/profile/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/seller/add_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/seller/add_product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/seller/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/seller/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/seller/edit_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/seller/edit_product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/seller/manage_products.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/seller/manage_products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/templates/seller_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/templates/seller_dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/data/cart_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/data/products.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/data/profiles.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/data/users.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/routes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/routes/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/routes/cart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/routes/dashboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/routes/products.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/routes/profiles.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/services/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/services/cart_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/services/file_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/services/product_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/services/user_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/static/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/templates/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/project_2_ecom_or_profile_app/templates/profile.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +109,7 @@
     "Python.app (4).executor": "Run",
     "Python.app (5).executor": "Run",
     "Python.app.executor": "Run",
+    "Python.app_server (1).executor": "Run",
     "Python.app_server.executor": "Run",
     "Python.client.executor": "Run",
     "Python.delete-profiles.executor": "Run",
@@ -95,29 +139,7 @@
       <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_2_python_requests_tour" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app_server">
-    <configuration name="01_connect_postgresql" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_APIs_and_DB_access" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_3_python_postgresql_integration" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_3_python_postgresql_integration\01_basic\01_connect_postgresql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.app_server (1)">
     <configuration name="02_connect_postgres_prompt_password" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_APIs_and_DB_access" />
       <option name="ENV_FILES" value="" />
@@ -132,6 +154,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_3_python_postgresql_integration/02_connect_postgres_prompt_password.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app_server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_APIs_and_DB_access" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/app_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app_server (1)" />
         <item itemvalue="Python.app_server" />
         <item itemvalue="Python.login_session" />
         <item itemvalue="Python.playground" />
         <item itemvalue="Python.02_connect_postgres_prompt_password" />
-        <item itemvalue="Python.01_connect_postgresql" />
       </list>
     </recent_temporary>
   </component>
@@ -240,11 +284,20 @@
       <option name="project" value="LOCAL" />
       <updated>1746990480178</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ecom_user_management_product_management">
+      <option name="closed" value="true" />
+      <created>1746997880220</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746997880220</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added project 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="added project 1" />
+    <MESSAGE value="ecom_user_management_product_management" />
+    <option name="LAST_COMMIT_MESSAGE" value="ecom_user_management_product_management" />
   </component>
 </project>

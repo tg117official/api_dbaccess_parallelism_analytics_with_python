@@ -4,6 +4,7 @@
     <div style="margin-bottom:20px;">
       <strong>Order ID:</strong> {{ order.id }} <br>
       <strong>Date:</strong> {{ order.timestamp }} <br>
+      <strong>User:</strong> {{ order.user }} <br>
       <strong>Items:</strong>
       <ul>
         {% for item in order['items'] %}
