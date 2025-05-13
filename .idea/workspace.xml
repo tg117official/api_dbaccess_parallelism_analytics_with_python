@@ -4,57 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cccf12e8-560a-4923-8e5f-d43c3f96c4a3" name="Changes" comment="SEP_ecom_completed">
-      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/app_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/client/download_images.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/client/login_session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/client/place_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/client/post_headers_cookies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/client/register_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/client/view_products.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/data/seed_mock_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/playground.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/services/access_control.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/services/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/services/file_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/services/order_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/services/product_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/services/schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/services/update_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/services/user_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/admin/edit_user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/admin/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/admin_dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/customer_dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/order_success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/orders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/profile/confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/profile/edit_profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/profile/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/seller/add_product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/seller/catalog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/seller/edit_product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/seller/manage_products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/templates/seller_dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/01_connect_postgresql.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/01_connect_postgresql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/02_create_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/02_create_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/03_insert_into_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/03_insert_into_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/04_fetch_from_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/04_fetch_from_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/06_update_record.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/06_update_record.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/07_delete_a_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/07_delete_a_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/08_cursor_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/08_cursor_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/09_named_cursor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/09_named_cursor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_basic/10_crud_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/10_crud_ops.py" afterDir="false" />
+    <list default="true" id="cccf12e8-560a-4923-8e5f-d43c3f96c4a3" name="Changes" comment="SEP_ecom_db_access_completed">
+      <change beforePath="$PROJECT_DIR$/Session_1/01_introduction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/01_introduction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_1/02_data_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/02_data_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_1/03_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/03_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_1/04_tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/04_tuple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_1/05_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/05_set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_1/06_dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/06_dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_1/07_mapping_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/07_mapping_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_1/08_program_structure_for_python_script" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/08_program_structure_for_python_script" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_1/09_program_structure_for_python_application" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/09_program_structure_for_python_application" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,40 +40,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.00_headers_basic.executor": "Run",
-    "Python.01_connect_postgresql.executor": "Run",
-    "Python.01_request_vs_response_headers.executor": "Run",
-    "Python.02_connect_postgres_prompt_password.executor": "Run",
-    "Python.03_put_method.executor": "Run",
-    "Python.app (1).executor": "Run",
-    "Python.app (2).executor": "Run",
-    "Python.app (3).executor": "Run",
-    "Python.app (4).executor": "Run",
-    "Python.app (5).executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.app_server (1).executor": "Run",
-    "Python.app_server (2).executor": "Run",
-    "Python.app_server.executor": "Run",
-    "Python.client.executor": "Run",
-    "Python.delete-profiles.executor": "Run",
-    "Python.demo.executor": "Run",
-    "Python.generate_images (1).executor": "Run",
-    "Python.get-profiles.executor": "Run",
-    "Python.login_session.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.playground.executor": "Run",
-    "Python.post-profiles.executor": "Run",
-    "Python.put-profile.executor": "Run",
-    "Python.seed_mock_data.executor": "Run",
-    "Python.server.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Sandeep/PycharmProjects/Python_APIs_and_DB_access/Session_2_python_requests_tour/SEP_ecom_project"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.00_headers_basic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_connect_postgresql.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_request_vs_response_headers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_connect_postgres_prompt_password.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_put_method.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.app (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.app (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.app (4).executor&quot;: &quot;Run&quot;,
+    &quot;Python.app (5).executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app_server (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.app_server (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.app_server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.delete-profiles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_images (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.get-profiles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.login_session.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.playground.executor&quot;: &quot;Run&quot;,
+    &quot;Python.post-profiles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.put-profile.executor&quot;: &quot;Run&quot;,
+    &quot;Python.seed_mock_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.server.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sandeep/PycharmProjects/Python_APIs_and_DB_access/Session_2_python_requests_tour/SEP_ecom_project&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_2_python_requests_tour\SEP_ecom_project" />
@@ -290,13 +249,22 @@
       <option name="project" value="LOCAL" />
       <updated>1747049258632</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="SEP_ecom_db_access_completed">
+      <option name="closed" value="true" />
+      <created>1747068867876</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747068867876</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added project 1" />
     <MESSAGE value="ecom_user_management_product_management" />
     <MESSAGE value="SEP_ecom_completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="SEP_ecom_completed" />
+    <MESSAGE value="SEP_ecom_db_access_completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="SEP_ecom_db_access_completed" />
   </component>
 </project>
