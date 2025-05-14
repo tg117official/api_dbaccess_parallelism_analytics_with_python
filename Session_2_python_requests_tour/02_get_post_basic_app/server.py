@@ -11,6 +11,7 @@ def greet():
     name = request.args.get('name', 'Guest')
     return jsonify({"message": f"Hello, {name}!"})
 
+
 # Sample POST endpoint
 @app.route('/add', methods=['POST'])
 def add_numbers():

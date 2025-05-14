@@ -1,0 +1,117 @@
+QUESTIONS
+
+1. What is GIL (Global Interpreter Lock)?
+Definition:
+The GIL is a mutex (a lock) used in CPython, the default Python interpreter.
+It allows only one thread to execute Python bytecode at a time, even if you have multiple cores.
+
+
+2. Why this is a bottleneck:
+When using threading.Thread, Python threads cannot run Python code in true parallel.
+So, even on 8-core systems, only one core is executing Python code at any moment per process.
+GIL gets temporarily released when threads do I/O (like time.sleep() or file read), so others can run.
+
+GIL is NOT a Python "feature" — it’s a CPython limitation. (Other interpreters like Jython or IronPython don’t have GIL.)
+
+
+
+
+3. How Multiprocessing Uses Multiple Cores
+Multiprocessing bypasses GIL completely because:
+Each process is a fully separate Python interpreter
+Each process gets its own GIL, own memory, own core
+Result:
+On 8 logical cores → you can run 8 CPU-heavy processes in parallel
+
+
+
+
+4. Can We Control Core Usage?
+Yes! You can limit the number of cores used:
+With multiprocessing.Pool:
+from multiprocessing import Pool
+
+with Pool(processes=4):  # Use only 4 cores
+    results = pool.map(some_cpu_heavy_function, data)
+
+Or by controlling how many Process objects you start:
+for _ in range(4):  # Manually create 4 processes
+    p = multiprocessing.Process(target=...)
+
+
+
+5. Where are Value and Array Stored?
+Even though each process has its own memory space, multiprocessing.Value and multiprocessing.Array are:
+Stored in shared memory using OS-level primitives (like mmap or shared segments)
+These are manually shared between processes (unlike threads)
+They live outside the process heap → think of them as a shared memory buffer, which all participating processes can read/write to safely using locks.
+
+
+6. How Much Memory is Assigned to Each Process?
+Memory Allocation Basics:
+Each process has:
+Its own memory space (heap, stack, code, etc.)
+Shared memory segments if you use Value/Array
+
+
+7. Is memory per process predefined?
+
+No, it’s not fixed
+It is allocated on demand by the OS as the process runs
+You can check memory usage using tools like:
+Windows: Task Manager → Details tab
+Linux/macOS: top, htop, ps
+
+
+Python Interpreters and GIL Summary
+CPython
+GIL: Yes
+Language Target: C
+Notes: Default and most widely used interpreter; GIL simplifies memory safety
+
+
+Jython
+GIL: No
+Language Target: Java
+Notes: Leverages Java threads; true multithreading supported
+
+
+IronPython
+GIL: No
+Language Target: .NET
+Notes: Uses .NET threading; no Global Interpreter Lock
+
+
+PyPy
+GIL: Optional (experimental)
+Language Target: RPython
+Notes: Designed for speed with JIT compilation; GIL removal is under research
+
+
+nogil branch of CPython
+GIL: No (work in progress)
+Language Target: C
+Notes: A promising alternative by Sam Gross aiming to remove GIL without breaking compatibility; requires significant internal changes
+
+
+
+GIL Concept and Purpose
+
+Why does the GIL exist?
+It protects the internal memory management system in CPython, especially the reference counting mechanism, by preventing simultaneous access from multiple threads.
+
+
+Does the GIL reduce performance?
+Yes, especially for CPU-bound multi-threaded programs, because only one thread can execute Python bytecode at a time.
+
+
+Can the GIL be removed safely?
+Not easily. Removing it requires reengineering memory management and breaks compatibility with many C extensions. This is why it still exists in CPython.
+
+
+What is the recommended alternative for parallel computation?
+Use the multiprocessing module, which creates separate processes. Each process has its own Python interpreter and memory space, allowing true parallel execution across CPU cores.
+
+
+
+

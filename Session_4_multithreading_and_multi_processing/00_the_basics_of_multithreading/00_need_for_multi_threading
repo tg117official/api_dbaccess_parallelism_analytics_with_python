@@ -1,0 +1,75 @@
+When to Use Multithreading
+
+1. I/O-bound Tasks
+Use multithreading when your program spends time waiting on external systems like:
+File systems
+Databases
+Networks (e.g. APIs, downloads)
+User input
+
+Threads are useful here because while one thread waits, others can continue running.
+Use Case Examples:
+Downloading multiple files concurrently
+Reading/writing large files simultaneously
+Crawling web pages or scraping data
+Chat applications waiting for multiple client inputs
+Making API calls to multiple endpoints at once
+
+
+
+2. Interactive Applications (GUI responsiveness)
+Multithreading helps keep the user interface responsive by running background tasks separately.
+Use Case Examples:
+A progress bar updates while a file is being uploaded
+Live preview while editing a photo or video
+Background spell-checker while typing in a document editor
+
+
+
+3. Games and Simulations
+Many game engines and real-time simulators use threads for handling:
+Physics calculations
+Rendering
+Input events
+Network communication
+
+
+Use Case Examples:
+Thread for rendering graphics
+Thread for computing AI/movement logic
+Thread for multiplayer communication
+
+
+
+4. Concurrent Tasks in Web Servers
+Web servers use multithreading to handle many requests simultaneously.
+
+Use Case Examples:
+Flask or Django web servers handling requests using WSGI threads
+Handling multiple users uploading/downloading files
+Managing session tracking or log writing in background
+
+
+
+5. Background Monitoring / Logging
+When you need to continuously monitor or log something in the background, threads are ideal.
+
+Use Case Examples:
+Real-time log capturing from applications
+Monitoring resource usage (CPU, RAM)
+Tracking system events and alerts
+
+
+
+When Not to Use Multithreading in Python
+Python's GIL (Global Interpreter Lock) limits multithreading for CPU-bound tasks (e.g., image processing, number crunching).
+Use multiprocessing instead when:
+You're doing math-heavy operations
+
+
+You need to leverage multiple cores for full CPU usage
+
+
+
+
+

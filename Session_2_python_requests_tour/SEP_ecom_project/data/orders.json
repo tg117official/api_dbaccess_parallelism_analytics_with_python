@@ -68,5 +68,19 @@
       }
     ],
     "timestamp": "2025-05-12T16:49:12.360882"
+  },
+  {
+    "id": 6,
+    "user": "cust3",
+    "items": [
+      {
+        "id": 1,
+        "image_url": "https://via.placeholder.com/150?text=Laptop",
+        "name": "Laptop",
+        "price": 75000,
+        "stock": 10
+      }
+    ],
+    "timestamp": "2025-05-14T10:03:17.194364"
   }
 ]

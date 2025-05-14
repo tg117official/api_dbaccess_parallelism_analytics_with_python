@@ -4,16 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cccf12e8-560a-4923-8e5f-d43c3f96c4a3" name="Changes" comment="SEP_ecom_db_access_completed">
-      <change beforePath="$PROJECT_DIR$/Session_1/01_introduction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/01_introduction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_1/02_data_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/02_data_types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_1/03_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/03_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_1/04_tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/04_tuple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_1/05_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/05_set.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_1/06_dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/06_dictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_1/07_mapping_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/07_mapping_types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_1/08_program_structure_for_python_script" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/08_program_structure_for_python_script" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_1/09_program_structure_for_python_application" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/09_program_structure_for_python_application" afterDir="false" />
+    <list default="true" id="cccf12e8-560a-4923-8e5f-d43c3f96c4a3" name="Changes" comment="added python basics">
+      <change afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/04_headers_task/playground.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/00_the_basics_of_multithreading/00_need_for_multi_threading" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/00_the_basics_of_multithreading/01_sequential_vs_multithreaded_approach.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/00_the_basics_of_multithreading/02_multiple_calls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/00_the_basics_of_multithreading/03_multiple_targets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/00_the_basics_of_multithreading/04_the_problem_race_condition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/00_the_basics_of_multithreading/05_the_solution_locks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/01_the_basics_of_multi_processing/00_need_for_multi_processing" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/01_the_basics_of_multi_processing/01_battle_of_giants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/01_the_basics_of_multi_processing/02_multi_processing_value_array_lock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/02_understanding_internals/00_obvious_questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_1_python_refresher/module_1_Printing_Variables_Prompting_Passing/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/module_1_Printing_Variables_Prompting_Passing/playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_1_python_refresher/module_2_decision_making_loops/10_dictionary_discovery.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/module_2_decision_making_loops/10_dictionary_discovery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_1_python_refresher/module_2_decision_making_loops/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/module_2_decision_making_loops/playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_1_python_refresher/module_3_list_comprehension_strings_generator/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_1_python_refresher/module_3_list_comprehension_strings_generator/playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/01_the_basics/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/01_the_basics/playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/02_get_post_basic_app/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/02_get_post_basic_app/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/04_headers_task/01_request_vs_response_headers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/04_headers_task/01_request_vs_response_headers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/data/orders.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/data/orders.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/data/users.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,42 +52,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.00_headers_basic.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_connect_postgresql.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_request_vs_response_headers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_connect_postgres_prompt_password.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_put_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.app (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.app (3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.app (4).executor&quot;: &quot;Run&quot;,
-    &quot;Python.app (5).executor&quot;: &quot;Run&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app_server (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.app_server (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.app_server.executor&quot;: &quot;Run&quot;,
-    &quot;Python.client.executor&quot;: &quot;Run&quot;,
-    &quot;Python.delete-profiles.executor&quot;: &quot;Run&quot;,
-    &quot;Python.demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.generate_images (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.get-profiles.executor&quot;: &quot;Run&quot;,
-    &quot;Python.login_session.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.playground.executor&quot;: &quot;Run&quot;,
-    &quot;Python.post-profiles.executor&quot;: &quot;Run&quot;,
-    &quot;Python.put-profile.executor&quot;: &quot;Run&quot;,
-    &quot;Python.seed_mock_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.server.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sandeep/PycharmProjects/Python_APIs_and_DB_access/Session_2_python_requests_tour/SEP_ecom_project&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.00_headers_basic.executor": "Run",
+    "Python.01_battle_of_giants.executor": "Run",
+    "Python.01_connect_postgresql.executor": "Run",
+    "Python.01_request_vs_response_headers.executor": "Run",
+    "Python.01_sequential_vs_multithreaded_approach.executor": "Run",
+    "Python.02_connect_postgres_prompt_password.executor": "Run",
+    "Python.02_multi_processing_value_array_lock.executor": "Run",
+    "Python.03_put_method.executor": "Run",
+    "Python.16_battle_of_titans_for_vs_while.executor": "Run",
+    "Python.app (1).executor": "Run",
+    "Python.app (2).executor": "Run",
+    "Python.app (3).executor": "Run",
+    "Python.app (4).executor": "Run",
+    "Python.app (5).executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.app_server (1).executor": "Run",
+    "Python.app_server (2).executor": "Run",
+    "Python.app_server.executor": "Run",
+    "Python.client.executor": "Run",
+    "Python.delete-profiles.executor": "Run",
+    "Python.demo.executor": "Run",
+    "Python.generate_images (1).executor": "Run",
+    "Python.get-profiles.executor": "Run",
+    "Python.login_session.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.playground (1).executor": "Run",
+    "Python.playground (2).executor": "Run",
+    "Python.playground (3).executor": "Run",
+    "Python.playground.executor": "Run",
+    "Python.post-profiles.executor": "Run",
+    "Python.put-profile.executor": "Run",
+    "Python.seed_mock_data.executor": "Run",
+    "Python.server.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Sandeep/PycharmProjects/Python_APIs_and_DB_access/Session_1_python_refresher",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_1_python_refresher" />
       <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_2_python_requests_tour\SEP_ecom_project" />
       <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_3_python_postgresql_integration" />
       <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_2_GET_and_POST\Project_2" />
@@ -88,8 +109,8 @@
       <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_2_python_requests_tour" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app_server (2)">
-    <configuration name="app_server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.01_sequential_vs_multithreaded_approach">
+    <configuration name="01_battle_of_giants" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_APIs_and_DB_access" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/01_the_basics_of_multi_processing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/app_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/01_the_basics_of_multi_processing/01_battle_of_giants.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app_server (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="01_sequential_vs_multithreaded_approach" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_APIs_and_DB_access" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/00_the_basics_of_multithreading" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/app_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/00_the_basics_of_multithreading/01_sequential_vs_multithreaded_approach.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_multi_processing_value_array_lock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_APIs_and_DB_access" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,11 +163,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/01_the_basics_of_multi_processing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/app_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/01_the_basics_of_multi_processing/02_multi_processing_value_array_lock.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="login_session" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="playground" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_APIs_and_DB_access" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,11 +185,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/client" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_2_python_requests_tour/04_headers_task" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_2_python_requests_tour/ecom_project/client/login_session.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_2_python_requests_tour/04_headers_task/playground.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,7 +198,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="seed_mock_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_APIs_and_DB_access" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,11 +207,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_2_python_requests_tour/02_get_post_basic_app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_3_python_postgresql_integration/SEP_ecom_project/data/seed_mock_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_2_python_requests_tour/02_get_post_basic_app/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app_server (2)" />
-        <item itemvalue="Python.seed_mock_data" />
-        <item itemvalue="Python.app_server (1)" />
-        <item itemvalue="Python.app_server" />
-        <item itemvalue="Python.login_session" />
+        <item itemvalue="Python.01_sequential_vs_multithreaded_approach" />
+        <item itemvalue="Python.02_multi_processing_value_array_lock" />
+        <item itemvalue="Python.01_battle_of_giants" />
+        <item itemvalue="Python.playground" />
+        <item itemvalue="Python.server" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747068867876</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added python basics">
+      <option name="closed" value="true" />
+      <created>1747108071269</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747108071269</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -265,6 +294,7 @@
     <MESSAGE value="ecom_user_management_product_management" />
     <MESSAGE value="SEP_ecom_completed" />
     <MESSAGE value="SEP_ecom_db_access_completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="SEP_ecom_db_access_completed" />
+    <MESSAGE value="added python basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="added python basics" />
   </component>
 </project>

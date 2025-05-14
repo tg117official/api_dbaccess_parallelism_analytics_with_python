@@ -16,5 +16,11 @@
     "email": "sdp117@gmail.com",
     "password": "secure123",
     "role": "admin"
+  },
+  {
+    "username": "cust3",
+    "email": "cust3@minimart.com",
+    "password": "cust",
+    "role": "customer"
   }
 ]

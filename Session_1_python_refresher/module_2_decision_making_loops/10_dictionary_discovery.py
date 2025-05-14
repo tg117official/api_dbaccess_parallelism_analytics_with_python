@@ -1,5 +1,4 @@
 
-
 my_dict = {'eid': 1, 'ename': 'John', 'dept': 'HR', 'salary': 500000}
 
 # # accessing

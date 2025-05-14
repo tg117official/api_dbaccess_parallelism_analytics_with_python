@@ -1,23 +1,9 @@
-# Exercise 5: Vowel Counter
-sentence = "The quick brown fox jumps over the lazy dog"
-word_vowel_counts = \
-[sum(1 for char in word if char.lower() in 'aeiou') # quick | sum(1,1)
-  for word in sentence.split()]
-print("Counts of vowels in each word:", word_vowel_counts)
 
+def increment_salary(salary):
+    if salary > 19999 :
+        return salary*1.20
+    else :
+        return salary*1.40
 
-
-
-
-
-sentence = "The quick brown fox jumps over the lazy dog"
-sentence_list = sentence.split(" ")
-word_vowel_counter = []
-
-for word in sentence_list : # The
-    v_count = sum(1
-                  for char in word
-                  if char.lower() in 'aeiou')
-    word_vowel_counter.append(v_count)
-
-print(word_vowel_counter)
+ic_salary = increment_salary(salary=15000)
+print(ic_salary)
