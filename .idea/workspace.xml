@@ -4,66 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cccf12e8-560a-4923-8e5f-d43c3f96c4a3" name="Changes" comment="added python multithreading_and_muli_processing">
-      <change afterPath="$PROJECT_DIR$/Session_1_python_refresher/module_6_file_IO/11_file_io_basics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_1_python_refresher/module_6_file_IO/12_word_count_text_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_1_python_refresher/module_6_file_IO/13_file_encryption_and_decryption.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_1_python_refresher/module_6_file_IO/14_csv_file_manipulation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_1_python_refresher/module_6_file_IO/15_file_backup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_1_python_refresher/module_6_file_IO/16_file_search_and_replace.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_5_numPy/01_what_is_numpy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_5_numPy/02_flashy_entrance_numpy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_5_numPy/03_ndarrays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_5_numPy/04_multi_dimensional_arrays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_5_numPy/05_array_operations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_5_numPy/06_indexing_and_slicing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_5_numPy/07_functions_axis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_5_numPy/08_temperature_analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Session_5_numPy/playground.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/00_pandas_notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/01_pandas_basic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/02_creating_dataframes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/data/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/data/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/data/data.parquet" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/data/data.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/data/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/data/data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/pandas_practice/01_pandas_introduction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/pandas_practice/02_pandas_core_components.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/pandas_practice/02_words_of_wisdom_pandas_series" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/pandas_practice/03_basic_data_manipulation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/pandas_practice/04_essential_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/pandas_practice/05_half_century_excel_manipulations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/pandas_practice/data/cr.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/pandas_practice/data/employee.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/playground.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/sales_analysis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/sales_analysis/analysis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/sales_analysis/analysis/data_insights.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/sales_analysis/analysis/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/sales_analysis/analysis/data_summary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/sales_analysis/analysis/data_visualizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/sales_analysis/data/sales_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/sales_analysis/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/sales_analysis/reports/sales_by_category.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/sales_analysis/reports/sales_by_region.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_6_pandas/sales_analysis/reports/sales_trend.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_7_matplotlib/01_first_encounter_matplotlib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_7_matplotlib/02_subplot_and_scatter_plot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_7_matplotlib/03_customizing_plots.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_7_matplotlib/04_subplots.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_7_matplotlib/05_different_types_of_plots.py" afterDir="false" />
+    <list default="true" id="cccf12e8-560a-4923-8e5f-d43c3f96c4a3" name="Changes" comment="added updated numpy">
+      <change afterPath="$PROJECT_DIR$/Session_1_python_refresher/module_6_file_IO/playground.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/README" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/data/orders.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/data/orders.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/data/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/Session_2_python_requests_tour/SEP_ecom_project/data/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/02_create_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/02_create_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/03_insert_into_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/03_insert_into_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/04_fetch_from_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/04_fetch_from_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/06_update_record.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/06_update_record.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/07_delete_a_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_3_python_postgresql_integration/01_getting_familiar/07_delete_a_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_5_numPy/06_indexing_and_slicing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_5_numPy/07_indexing_and_slicing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_5_numPy/07_functions_axis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_5_numPy/08_functions_axis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_5_numPy/08_temperature_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_5_numPy/09_temperature_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_5_numPy/09_image_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_5_numPy/10_image_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_5_numPy/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/Session_5_numPy/playground.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session_6_pandas/01_pandas_basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/session_6_pandas/01_pandas_basic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session_6_pandas/pandas_practice/03_basic_data_manipulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/session_6_pandas/pandas_practice/03_basic_data_manipulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session_6_pandas/pandas_practice/04_essential_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/session_6_pandas/pandas_practice/04_essential_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session_6_pandas/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/session_6_pandas/playground.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +52,7 @@
     "Python.01_sequential_vs_multithreaded_approach.executor": "Run",
     "Python.02_connect_postgres_prompt_password.executor": "Run",
     "Python.02_create_table.executor": "Run",
+    "Python.02_flashy_entrance_numpy.executor": "Run",
     "Python.02_multi_processing_value_array_lock.executor": "Run",
     "Python.02_multiple_calls.executor": "Run",
     "Python.03_insert_into_table.executor": "Run",
@@ -108,6 +61,7 @@
     "Python.04_the_problem_race_condition.executor": "Run",
     "Python.05_the_solution_locks.executor": "Run",
     "Python.06_update_record.executor": "Run",
+    "Python.10_image_processing.executor": "Run",
     "Python.16_battle_of_titans_for_vs_while.executor": "Run",
     "Python.app (1).executor": "Run",
     "Python.app (2).executor": "Run",
@@ -137,17 +91,17 @@
     "Python.server.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Sandeep/PycharmProjects/Python_APIs_and_DB_access/Session_1_python_refresher/module_6_file_IO",
+    "last_opened_file_path": "C:/Users/Sandeep/PycharmProjects/Python_APIs_and_DB_access/Session_5_numPy",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_5_numPy" />
       <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_1_python_refresher\module_6_file_IO" />
       <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access" />
       <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_1_python_refresher" />
       <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_2_python_requests_tour\SEP_ecom_project" />
-      <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_3_python_postgresql_integration" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\session_6_pandas" />
@@ -157,8 +111,8 @@
       <recent name="C:\Users\Sandeep\PycharmProjects\Python_APIs_and_DB_access\Session_2_python_requests_tour\project_2_ecom_or_profile_app\routes" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.01_battle_of_giants">
-    <configuration name="01_battle_of_giants" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.playground (2)">
+    <configuration name="02_flashy_entrance_numpy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_APIs_and_DB_access" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/01_the_basics_of_multi_processing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_5_numPy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/01_the_basics_of_multi_processing/01_battle_of_giants.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_5_numPy/02_flashy_entrance_numpy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="01_sequential_vs_multithreaded_approach" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="10_image_processing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_APIs_and_DB_access" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,11 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/00_the_basics_of_multithreading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_5_numPy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/00_the_basics_of_multithreading/01_sequential_vs_multithreaded_approach.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_5_numPy/10_image_processing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_multiple_calls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="playground (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_APIs_and_DB_access" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,11 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/00_the_basics_of_multithreading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_5_numPy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/00_the_basics_of_multithreading/02_multiple_calls.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_5_numPy/playground.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,7 +178,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04_the_problem_race_condition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="playground (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_APIs_and_DB_access" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,11 +187,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/00_the_basics_of_multithreading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/session_6_pandas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/00_the_basics_of_multithreading/04_the_problem_race_condition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/session_6_pandas/playground.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,7 +200,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05_the_solution_locks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="playground" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_APIs_and_DB_access" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -255,11 +209,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/00_the_basics_of_multithreading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Session_1_python_refresher/module_6_file_IO" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_4_multithreading_and_multi_processing/00_the_basics_of_multithreading/05_the_solution_locks.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Session_1_python_refresher/module_6_file_IO/playground.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.01_battle_of_giants" />
-        <item itemvalue="Python.05_the_solution_locks" />
-        <item itemvalue="Python.04_the_problem_race_condition" />
-        <item itemvalue="Python.02_multiple_calls" />
-        <item itemvalue="Python.01_sequential_vs_multithreaded_approach" />
+        <item itemvalue="Python.playground (2)" />
+        <item itemvalue="Python.10_image_processing" />
+        <item itemvalue="Python.playground (1)" />
+        <item itemvalue="Python.02_flashy_entrance_numpy" />
+        <item itemvalue="Python.playground" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +296,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747209971059</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added file_io, numpy, pandas, matplotlib">
+      <option name="closed" value="true" />
+      <created>1747282737162</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747282737162</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added updated numpy">
+      <option name="closed" value="true" />
+      <created>1747285044180</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747285044180</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -352,6 +322,8 @@
     <MESSAGE value="SEP_ecom_db_access_completed" />
     <MESSAGE value="added python basics" />
     <MESSAGE value="added python multithreading_and_muli_processing" />
-    <option name="LAST_COMMIT_MESSAGE" value="added python multithreading_and_muli_processing" />
+    <MESSAGE value="added file_io, numpy, pandas, matplotlib" />
+    <MESSAGE value="added updated numpy" />
+    <option name="LAST_COMMIT_MESSAGE" value="added updated numpy" />
   </component>
 </project>

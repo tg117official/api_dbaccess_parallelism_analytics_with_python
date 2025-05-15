@@ -1,8 +1,12 @@
 import pandas as pd
+import numpy as np
 
+# --------------------------------------------------
 # Exercise 1: Creating a DataFrame
-# Problem: Create a DataFrame with columns "Name", "Age", and "City" using a dictionary.
-# Relevance: Learn how to create and view data in a tabular format.
+# --------------------------------------------------
+# Task: Create a DataFrame using a dictionary
+# Relevance: Understand how tabular data is created in Pandas
+
 data = {
     "Name": ["Alice", "Bob", "Charlie", "David"],
     "Age": [25, 30, 35, 40],
@@ -12,45 +16,63 @@ df = pd.DataFrame(data)
 print("Exercise 1: Create a DataFrame")
 print(df, "\n")
 
+# --------------------------------------------------
 # Exercise 2: Filtering Rows
-# Problem: Filter rows where "Age" is greater than 30.
-# Relevance: Understand how to filter data based on conditions.
+# --------------------------------------------------
+# Task: Filter people older than 30
+# Relevance: Learn how to apply boolean conditions to rows
+
 filtered_df = df[df["Age"] > 30]
 print("Exercise 2: Filter rows where Age > 30")
 print(filtered_df, "\n")
 
+# --------------------------------------------------
 # Exercise 3: Adding a New Column
-# Problem: Add a new column "Salary" with values [50000, 60000, 70000, 80000].
-# Relevance: Modify and expand your DataFrame dynamically.
+# --------------------------------------------------
+# Task: Add 'Salary' column
+# Relevance: Learn how to expand DataFrames
+
 df["Salary"] = [50000, 60000, 70000, 80000]
 print("Exercise 3: Add a new column 'Salary'")
 print(df, "\n")
 
+# --------------------------------------------------
 # Exercise 4: Sorting Data
-# Problem: Sort the DataFrame by "Age" in descending order.
-# Relevance: Learn how to organize data based on a column.
+# --------------------------------------------------
+# Task: Sort by age in descending order
+# Relevance: Learn to organize rows by column values
+
 sorted_df = df.sort_values(by="Age", ascending=False)
 print("Exercise 4: Sort DataFrame by Age (descending)")
 print(sorted_df, "\n")
 
+# --------------------------------------------------
 # Exercise 5: Handling Missing Data
-# Problem: Replace the value of "City" for "Bob" with NaN, then fill it with "Unknown".
-# Relevance: Handle missing or incomplete data in a dataset.
-df.loc[1, "City"] = None
-df["City"].fillna("Unknown", inplace=True)
-print("Exercise 5: Handle missing data")
+# --------------------------------------------------
+# Task: Replace Bob's city with NaN and then fill it
+# Relevance: Handle incomplete or missing data
+
+df.loc[df["Name"] == "Bob", "City"] = np.nan  # Replace city with NaN
+df["City"].fillna("Unknown", inplace=True)   # Fill NaN with "Unknown"
+print("Exercise 5: Handle missing data (City for Bob set to Unknown)")
 print(df, "\n")
 
+# --------------------------------------------------
 # Exercise 6: Grouping and Aggregation
-# Problem: Group by "City" and calculate the average "Age".
-# Relevance: Perform group-level aggregations for data analysis.
+# --------------------------------------------------
+# Task: Group by City and get average Age
+# Relevance: Perform group-level aggregations
+
 grouped_df = df.groupby("City")["Age"].mean()
 print("Exercise 6: Group by City and calculate average Age")
 print(grouped_df, "\n")
 
+# --------------------------------------------------
 # Exercise 7: Merging DataFrames
-# Problem: Merge the current DataFrame with another DataFrame containing "Name" and "Department".
-# Relevance: Combine datasets from multiple sources.
+# --------------------------------------------------
+# Task: Merge with department data on Name
+# Relevance: Combine datasets from different sources
+
 department_data = pd.DataFrame({
     "Name": ["Alice", "Bob", "Charlie", "David"],
     "Department": ["HR", "IT", "Finance", "Marketing"]
@@ -59,24 +81,33 @@ merged_df = pd.merge(df, department_data, on="Name")
 print("Exercise 7: Merge DataFrames on Name")
 print(merged_df, "\n")
 
+# --------------------------------------------------
 # Exercise 8: Dropping Columns
-# Problem: Drop the "Salary" column from the DataFrame.
-# Relevance: Learn how to remove unnecessary data from a DataFrame.
+# --------------------------------------------------
+# Task: Drop the Salary column
+# Relevance: Learn how to remove unnecessary columns
+
 dropped_df = merged_df.drop(columns=["Salary"])
 print("Exercise 8: Drop the 'Salary' column")
 print(dropped_df, "\n")
 
+# --------------------------------------------------
 # Exercise 9: Reading and Writing Files
-# Problem: Write the DataFrame to a CSV file and read it back.
-# Relevance: Save and load data for persistent storage.
-df.to_csv("output.csv", index=False)
-read_df = pd.read_csv("output.csv")
+# --------------------------------------------------
+# Task: Save to CSV and read back
+# Relevance: Store and load persistent data
+
+df.to_csv("output.csv", index=False)  # Save
+read_df = pd.read_csv("output.csv")   # Read
 print("Exercise 9: Write and read DataFrame to/from CSV")
 print(read_df, "\n")
 
+# --------------------------------------------------
 # Exercise 10: Applying Functions
-# Problem: Create a new column "Age Group" based on "Age" (e.g., "Young", "Mid", "Senior").
-# Relevance: Apply custom functions to manipulate data.
+# --------------------------------------------------
+# Task: Add 'Age Group' column using custom function
+# Relevance: Learn to use apply with user-defined functions
+
 def age_group(age):
     if age < 30:
         return "Young"
@@ -88,3 +119,34 @@ def age_group(age):
 df["Age Group"] = df["Age"].apply(age_group)
 print("Exercise 10: Apply function to create Age Group column")
 print(df, "\n")
+
+# --------------------------------------------------
+# Exercise 11: Renaming Columns
+# --------------------------------------------------
+# Task: Rename 'Age Group' to 'Category'
+# Relevance: Clean up or customize column names
+
+df.rename(columns={"Age Group": "Category"}, inplace=True)
+print("Exercise 11: Rename 'Age Group' to 'Category'")
+print(df, "\n")
+
+# --------------------------------------------------
+# Exercise 12: Resetting and Setting Index
+# --------------------------------------------------
+# Task: Reset index and then set 'Name' as index
+# Relevance: Index manipulation and labeling
+
+reset_df = df.reset_index(drop=True)      # Reset index
+indexed_df = reset_df.set_index("Name")   # Set 'Name' as index
+print("Exercise 12: Set 'Name' column as index")
+print(indexed_df, "\n")
+
+# --------------------------------------------------
+# Exercise 13: Value Counts
+# --------------------------------------------------
+# Task: Count how many people fall in each Category
+# Relevance: Quick insights from categorical data
+
+counts = df["Category"].value_counts()
+print("Exercise 13: Count of each Age Category")
+print(counts, "\n")

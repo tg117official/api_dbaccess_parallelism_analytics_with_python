@@ -25,6 +25,6 @@ if __name__ == "__main__":
     output_image_path = r"C:\Users\Sandeep\Pictures\brighter_sample.jpg" # Output image path
 
     if os.path.exists(input_image_path):
-        increase_brightness(input_image_path, output_image_path, brightness_factor=40)
+        increase_brightness(input_image_path, output_image_path, brightness_factor=90)
     else:
         print(f"Input file {input_image_path} does not exist.")

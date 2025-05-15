@@ -1,8 +1,11 @@
 import numpy as np
 
-array2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-print(array2d)
+array2d = np.array([
+    [4, 1, 7],
+    [2, 5, 8],
+    [6, 3, 9]
+])
 
-stride = array2d[0:3:2, ::2]  # Rows from index 0 to 2 step 2, all columns step 2
-print("\n",stride)
+column_sum = np.sum(array2d, axis=1)
 
+print(column_sum)

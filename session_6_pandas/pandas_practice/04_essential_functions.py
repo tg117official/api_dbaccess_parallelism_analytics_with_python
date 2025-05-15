@@ -1,45 +1,76 @@
 import pandas as pd
 import numpy as np
 
-# Create a sample DataFrame with some missing values
+# ---------------------------------------------
+# Creating a sample DataFrame with missing values
+# ---------------------------------------------
 df = pd.DataFrame({
-    'A': [1, 2, np.nan, 4, 5],
-    'B': ['a', 'b', 'c', 'd', 'e'],
-    'C': np.random.randn(5),
+    'A': [1, 2, np.nan, 4, 5],             # Column with a missing value
+    'B': ['a', 'b', 'c', 'd', 'e'],        # Categorical column
+    'C': np.random.randn(5),              # Normally distributed random values
     'D': np.random.randn(5)
 })
 
-print("Initial DataFrame:\n", df)
+print("🔹 Initial DataFrame:\n", df)
 
-# Descriptive Statistics
+# ---------------------------------------------
+# Descriptive Statistics using describe()
+# ---------------------------------------------
+# Automatically summarizes count, mean, std, min, quartiles, max for numeric columns
+print("\n📊 Descriptive Statistics (numeric only):\n", df.describe())
 
-# Using describe() to get a summary of the statistics
-# This includes count, mean, std, min, quartiles, and max
-print("\nDescriptive Statistics:\n", df.describe())
+# For non-numeric (categorical) data
+print("\n📊 Descriptive Statistics (including object types):\n", df.describe(include='all'))
 
-# Calculate mean of each numeric column
-print("\nMean of each column:\n", df.mean())
+# ---------------------------------------------
+# Additional Summary Functions
+# ---------------------------------------------
+print("\n✅ Mean of each numeric column:\n", df.mean(numeric_only=True))
+print("\n✅ Median of each numeric column:\n", df.median(numeric_only=True))
+print("\n✅ Minimum value in each column:\n", df.min(numeric_only=True))
+print("\n✅ Maximum value in each column:\n", df.max(numeric_only=True))
+print("\n✅ Standard deviation of each column:\n", df.std(numeric_only=True))
+print("\n✅ Variance of each column:\n", df.var(numeric_only=True))
+print("\n✅ Correlation matrix:\n", df.corr(numeric_only=True))
 
-# Calculate median of each numeric column
-print("\nMedian of each column:\n", df.median())
+# ---------------------------------------------
+# Skewness and Kurtosis
+# ---------------------------------------------
+print("\n✅ Skewness of numeric columns:\n", df.skew(numeric_only=True))
+print("\n✅ Kurtosis of numeric columns:\n", df.kurt(numeric_only=True))
 
-# Find the minimum value in each column
-print("\nMinimum value in each column:\n", df.min())
+# ---------------------------------------------
+# Frequency Count for a Categorical Column
+# ---------------------------------------------
+print("\n📌 Frequency count of values in column 'B':\n", df['B'].value_counts())
 
-# Find the maximum value in each column
-print("\nMaximum value in each column:\n", df.max())
-
+# ---------------------------------------------
 # Handling Missing Data
+# ---------------------------------------------
 
-# Check for missing values in each column
-print("\nMissing data in each column:\n", df.isnull().sum())
+# Check how many missing values per column
+print("\n🚨 Missing values in each column:\n", df.isnull().sum())
 
-# Fill missing values with a specified value (e.g., the mean of the column)
-df['A'].fillna(value=df['A'].mean(), inplace=True)
-print("\nDataFrame after filling missing values in column 'A':\n", df)
+# Fill missing values in column 'A' with its mean
+mean_val = df['A'].mean()
+df['A'].fillna(value=mean_val, inplace=True)
+print(f"\n🛠️ Filled missing values in column 'A' with mean ({mean_val:.2f}):\n", df)
 
-# Alternatively, you could drop rows with missing data (commented out for demonstration)
-df.dropna(inplace=True)
+# If desired: Drop all rows with any missing values (optional)
+# df.dropna(inplace=True)
 
-# This script demonstrates how to perform basic descriptive statistical analysis and handle missing data,
-# which are essential tasks in data cleaning and preparation for further analysis.
+# Or, drop rows only if column 'C' or 'D' has missing values
+# df.dropna(subset=['C', 'D'], inplace=True)
+
+# ---------------------------------------------
+# Final DataFrame Summary
+# ---------------------------------------------
+print("\n✅ Final DataFrame:\n", df)
+
+# ---------------------------------------------
+# Summary of Covered Functions
+# ---------------------------------------------
+# - describe(), mean(), median(), min(), max()
+# - std(), var(), corr(), skew(), kurt()
+# - value_counts()
+# - isnull(), fillna(), dropna()
