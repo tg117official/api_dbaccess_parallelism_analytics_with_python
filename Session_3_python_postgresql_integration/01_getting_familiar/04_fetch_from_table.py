@@ -7,7 +7,7 @@ def get_all_users():
         connection = psycopg2.connect(
             dbname="training_db",
             user="postgres",
-            password="your_password",  # Replace securely
+            password="root",  # Replace securely
             host="localhost",
             port="5432"
         )

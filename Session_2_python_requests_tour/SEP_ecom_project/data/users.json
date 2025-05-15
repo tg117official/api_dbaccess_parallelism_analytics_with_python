@@ -22,5 +22,11 @@
     "email": "cust3@minimart.com",
     "password": "cust",
     "role": "customer"
+  },
+  {
+    "username": "customer5",
+    "email": "cs5@gmail.com",
+    "password": "customer5",
+    "role": "customer"
   }
 ]

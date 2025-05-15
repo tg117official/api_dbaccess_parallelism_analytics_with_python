@@ -7,7 +7,7 @@ def insert_user(name, email):
         connection = psycopg2.connect(
             dbname="training_db",
             user="postgres",
-            password="your_password",  # Replace or use env variable
+            password="root",  # Replace or use env variable
             host="localhost",
             port="5432"
         )

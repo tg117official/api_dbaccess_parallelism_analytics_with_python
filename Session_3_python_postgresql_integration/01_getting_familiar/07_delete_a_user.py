@@ -7,7 +7,7 @@ def delete_user_by_id(user_id):
         connection = psycopg2.connect(
             dbname="training_db",
             user="postgres",
-            password="your_password",  # Replace securely
+            password="root",  # Replace securely
             host="localhost",
             port="5432"
         )

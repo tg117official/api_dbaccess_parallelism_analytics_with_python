@@ -7,7 +7,7 @@ def create_users_table():
         connection = psycopg2.connect(
             dbname="training_db",
             user="postgres",
-            password="your_password",  # Replace or read from env
+            password="root",  # Replace or read from env
             host="localhost",
             port="5432"
         )
